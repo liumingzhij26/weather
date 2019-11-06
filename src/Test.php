@@ -13,5 +13,4 @@ namespace Overtrue\Weather;
 
 class Test
 {
-
 }
