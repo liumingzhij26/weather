@@ -1,5 +1,5 @@
 {
-    "name": "overtrue/weather",
+    "name": "lmz/weather",
     "description": "A weather SDK.",
     "license": "MIT",
     "authors": [
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Overtrue\\Weather\\ServiceProvider"
+                "Lmz\\Weather\\ServiceProvider"
             ]
         }
     }
