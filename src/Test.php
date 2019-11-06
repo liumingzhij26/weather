@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the lmz/weather.
  *
@@ -12,5 +13,4 @@ namespace Overtrue\Weather;
 
 class Test
 {
-
 }
