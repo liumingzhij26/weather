@@ -1,17 +1,16 @@
 <?php
-/***************************************************************************
+/*
+ * This file is part of the lmz/weather.
  *
- * Copyright (c) 2019 liumingzhi, Inc. All Rights Reserved
+ * (c) overtrue <liumingzhij26@gmail.com>
  *
- **************************************************************************
- *
- * @file Test.php
- * @author liumingzhi(liumingzhij26@gmail.com)
- * @date 2019-11-06 17:29:00
- *
- **/
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
 
 namespace Overtrue\Weather;
-class Test{
+
+class Test
+{
 
 }
