@@ -13,4 +13,7 @@ namespace Overtrue\Weather;
 
 class Test
 {
+    public function __construct()
+    {
+    }
 }
