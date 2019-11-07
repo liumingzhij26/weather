@@ -28,6 +28,7 @@ class Test
         if (null === $id) {
             echo $id;
         }
+
         return 0;
     }
 }
