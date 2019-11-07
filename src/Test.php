@@ -1,12 +1,11 @@
 <?php
 
 /*
- * This file is part of the lmz/weather.
+ * This file is part of the overtrue/weather.
  *
- * (c) overtrue <liumingzhij26@gmail.com>
+ * (c) overtrue <i@overtrue.me>
  *
- * This source file is subject to the MIT license that is bundled
- * with this source code in the file LICENSE.
+ * This source file is subject to the MIT license that is bundled.
  */
 
 namespace Overtrue\Weather;
@@ -15,5 +14,18 @@ class Test
 {
     public function __construct()
     {
+    }
+
+    /**
+     * @param $id
+     * @param array $arr
+     * @return int
+     */
+    public function test($id, $arr = []): int
+    {
+        if (is_null($id)) {
+            echo $id;
+        }
+        return 0;
     }
 }
