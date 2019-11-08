@@ -20,7 +20,7 @@ class Test
      * @param array $arr
      * @return int
      */
-    public static function test($id, $arr = []): int
+    static public function test($id, $arr = []): int
     {
         if (null === $id) {
             echo $id;
