@@ -18,10 +18,9 @@ class Test
     /**
      * @param $id
      * @param array $arr
-     *
      * @return int
      */
-    public function test($id, $arr = []): int
+    public static function test($id, $arr = []): int
     {
         if (null === $id) {
             echo $id;
