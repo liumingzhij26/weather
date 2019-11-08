@@ -1,10 +1,12 @@
 <?php
+
 /*
- * This file is part of the overtrue/weather.
+ * This file is part of the lmz/weather.
  *
- * (c) overtrue <i@overtrue.me>
+ * (c) overtrue <liumingzhij26@gmail.com>
  *
- * This source file is subject to the MIT license that is bundled.
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
  */
 
 namespace Overtrue\Weather;
@@ -18,9 +20,10 @@ class Test
     /**
      * @param $id
      * @param array $arr
+     *
      * @return int
      */
-    static public function test($id, $arr = []): int
+    public static function test($id, $arr = []): int
     {
         if (null === $id) {
             echo $id;
